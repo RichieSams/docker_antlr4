@@ -1,4 +1,4 @@
-FROM anapsix/alpine-java:8
+FROM openjdk:8-jdk-alpine3.7
 
 ENV ANTLR_VERSION 4.6
 ENV CLASSPATH .:/antlr-${ANTLR_VERSION}-complete.jar:$CLASSPATH
